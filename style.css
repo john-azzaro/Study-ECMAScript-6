@@ -2,9 +2,13 @@
   box-sizing: border-box;                        /* ... standardize width and heights to conform to box */
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background: 
+  font-family: 'Poppins', sans-serif;  
 }
+
+body {
+  background: linear-gradient(to right, rgb(177, 178, 189), rgb(165, 168, 149));
+}
+
 
 .gallery-highlight {                            /* For the large highlight image: */
   width: 80%;
@@ -18,9 +22,26 @@ section {                                     /* For the entire sectionc contain
 
 .city-gallery {                              /* For the gallery side of the site: */
   width: 50%;                                /* ... make it 50% of the width*/
+  flex-direction: column;                    /* and stack the elements one on top of each other */   
+  justify-content: center;                   /* This will center all the elements vertically */
+  align-items: center;                       /* Align element vertically */
 }
 
 .city-description {                          /* For the description side of the site:*/
   width: 50%;                                /* ... make it 50% of the width*/
+  display: flex;                             /* Use flex (which will align items side by side) */
+  flex-direction: column;                    /* and stack the elements one on top of each other */   
+  justify-content: center;                   /* This will center all the elements vertically */
+  align-items: center;                       /* Align element vertically */
+  background: white;
 }
 
+.gallery-preview {                          /* For the preview images: */
+  display: flex;                            /* enable flex display */
+  width: 80%;
+}
+
+.gallery-preview img {                      /* for each of the images in the preview */
+  height: 100px;                            /* make each of the images 100px high*/
+  flex-grow: 1;                             /* and match the width of the previewed images to the size of the galery preview element*/
+}
