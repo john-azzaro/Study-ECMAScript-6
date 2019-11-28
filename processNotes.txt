@@ -1,0 +1,45 @@
+JavaScript Gallery Process Notes
+================================
+
+
+
+
+Study Objective:
+==================
+The objective of this study is to build good looking and working image gallery. The gallery
+itself should have a main image on top (the focused image) and smaller images at the bottom (3+).
+
+
+
+
+Phase 1: Project Setup:
+=======================
+  1. Create HTML, CSS, and JavaScript files.
+  2. Get the pictures for your project (make sure you have LARGE and SMALL pictures).
+
+
+
+Phase 2: Layout the HTML structure of the Gallery:
+=================================================
+  * In the cas eof this study, we will have:
+    2.1: A "main" section that will contain all the divs we would want for the project (perhaps even multiple galleries)
+    2.2: A "Gallery" div that will contain the images for our city gallery.
+    2.3: A "gallery-main" classed image with a Large picture you want to show up first (this will switched when we add JS to it).
+    2.4: A "preview" div section with the images of the smaller pictures in your gallery (we have 3 for this study).
+
+    -------------------------------------------------------------------------------------------------------------------
+    <main>                                                                                    
+        <div class="gallery-container">                                                             <!-- div containing the entire gallery --> 
+          <img src="./images/Blue-City-Large.jpg" class="gallery-main" alt="Large Image">           <!-- Main large image -->
+          <div class="preview">                                                                     <!-- div containing the smaller preview images in the gallery -->
+            <img src="./images/Blue-City-Small.jpg" alt="Small Image">                        
+            <img src="./images/Dark-City-Small.jpg" alt="Small Image">
+            <img src="./images/Light-City-Small.jpg" alt="Small Image">
+          </div>
+        </div>
+    </main> 
+    -------------------------------------------------------------------------------------------------------------------
+
+
+
+Phase 3: 
