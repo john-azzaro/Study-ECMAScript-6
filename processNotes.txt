@@ -48,29 +48,9 @@ Phase 2: Layout the HTML structure of the Gallery:
 
 Phase 3: Create the initial styling for the project
 =====================================================
-* You dont have to go overboard with the styling at this point, just have everything positioned and centered.
-  --------------------------------------------------------------------------------------------------------
+  * See css file
 
-    .gallery-highlight {                            /* For the large highlight image: */
-      width: 80%;
-      height: 50%;
-    }
 
-    section {                                     /* For the entire sectionc containing everything: */
-      display: flex;                              /* Set display to flex so everything is side-by-side */
-      height: 100vh;                              /* Set height to 100% of the viewport size */      
-    }
 
-    .city-gallery {                              /* For the gallery side of the site: */
-      width: 50%;                                /* ... make it 50% of the width*/
-    }
-
-    .city-description {                          /* For the description side of the site:*/
-      width: 50%;                                /* ... make it 50% of the width*/
-    }
-
-  --------------------------------------------------------------------------------------------------------
-  * Then Center your elements
-  ---------------------------------------------------------------------------------------------------------
-  
-  ---------------------------------------------------------------------------------------------------------
+Phase 4: Add JavaScript
+=======================

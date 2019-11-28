@@ -22,9 +22,11 @@ section {                                     /* For the entire sectionc contain
 
 .city-gallery {                              /* For the gallery side of the site: */
   width: 50%;                                /* ... make it 50% of the width*/
+  display: flex;
   flex-direction: column;                    /* and stack the elements one on top of each other */   
   justify-content: center;                   /* This will center all the elements vertically */
   align-items: center;                       /* Align element vertically */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 .city-description {                          /* For the description side of the site:*/
@@ -38,10 +40,19 @@ section {                                     /* For the entire sectionc contain
 
 .gallery-preview {                          /* For the preview images: */
   display: flex;                            /* enable flex display */
-  width: 80%;
+  width: 80%;                               /* size of the preview element relative to the parent container*/
+  border: 1px solid rgb(128, 128, 128);   /* border Outline of the preview images*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 .gallery-preview img {                      /* for each of the images in the preview */
   height: 100px;                            /* make each of the images 100px high*/
   flex-grow: 1;                             /* and match the width of the previewed images to the size of the galery preview element*/
+  opacity: 0.6;                             /* fade the images */
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+img.city-active {
+  opacity: 1;
 }
