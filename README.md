@@ -17,9 +17,14 @@ Here are a few questions from the study to explore:
 <dl> 
 <dd>
 
-### Primary objective revolves around the background-active class.
+### .
 ----------
 
 
 </dd>
-</dl> 
+</dl>
+
+<br>
+
+## Screenshots
+![galleryStudy](https://user-images.githubusercontent.com/37447586/74215883-7f4f7180-4c57-11ea-84e2-b3b59e65e747.png)
