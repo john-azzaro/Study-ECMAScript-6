@@ -27,4 +27,4 @@ Here are a few questions from the study to explore:
 <br>
 
 ## Screenshots
-![galleryStudy](https://user-images.githubusercontent.com/37447586/74215883-7f4f7180-4c57-11ea-84e2-b3b59e65e747.png)
+![galleryStudy](https://user-images.githubusercontent.com/37447586/74215944-b9207800-4c57-11ea-8979-fb1f0690c65b.png)
